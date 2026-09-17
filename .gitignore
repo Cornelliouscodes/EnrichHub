@@ -1,0 +1,24 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Flutter / Dart
+flutter/.dart_tool/
+flutter/build/
+flutter/.flutter-plugins
+flutter/.flutter-plugins-dependencies
+flutter/**/ephemeral/
+flutter/android/.gradle/
+flutter/.idea/
+flutter/*.iml
+
+# PHP/local uploads
+api/uploads/announcements/*
+!api/uploads/announcements/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
